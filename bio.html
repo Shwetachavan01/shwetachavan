@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Bio Data</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+        }
+
+        /* Header */
+        header {
+            background: #3e95cb;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 4px solid #2ccad2;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Section Styling */
+        section {
+            flex: 1 1 48%;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #35424a;
+            border-bottom: 3px solid #2a5759;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        p {
+            line-height: 1.8;
+            margin: 5px 0;
+        }
+
+        /* Contact Info Button */
+        .contact-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 5px 0;
+            background-color: #35424a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background-color: #2a5759;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #35424a;
+            color: #fff;
+            font-size: 0.9em;
+            border-top: 4px solid #2a5759;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            section {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Bio Data</h1>
+    </header>
+
+    <main>
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Full Name:</strong> Shweta Chavan </p>
+            <p><strong>Date of Birth:</strong> January 8, 2005</p>
+            <p><strong>Place of Birth:</strong> Athani Belagavi</p>
+            <p><strong>Current Address:</strong> Athani kodaganur , Belagavi</p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +91 8050442156</p>
+            <p><strong>Email:</strong> shwetammu67@gmail.com</p>
+        </section>
+
+        <section class="education">
+            <h2>Educational Background</h2>
+            <ul>
+                <li>Bachelor's Degree in Computer Science - Maratha mandal Engineeing collage(2023 - 2026)</li>
+                
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills & Strengths</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Problem Solving & Analytical Thinking</li>
+                <li>Team Collaboration & Communication</li>
+            </ul>
+        </section>
+
+        <section class="hobbies">
+            <h2>Hobbies & Interests</h2>
+            <ul>
+                <li>Reading Books</li>
+                <li>Playing Chess</li>
+                <li>Traveling & Exploring New Cultures</li>
+            </ul>
+        </section>
+
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Table tenis Champian</li>
+                <li>Handwrinting champian</li>
+            </ul>
+        </section>
+
+        <section class="career-objective">
+            <h2>Career Objective</h2>
+            <p>
+                To leverage my technical and problem-solving skills to contribute meaningfully to a dynamic organization
+                while
+                continuing to grow professionally and personally.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shweta Chavan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
